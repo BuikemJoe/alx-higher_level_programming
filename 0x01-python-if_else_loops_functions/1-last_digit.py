@@ -16,4 +16,3 @@ elif last_digit == 0:
     print(f"{thekoko} and is 0")
 else:
     print(f"{thekoko} and is less than 6 and not 0")
-
