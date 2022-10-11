@@ -2,6 +2,7 @@
 
 """Define a class Square."""
 
+
 class Square:
     """Represent a square."""
 
@@ -12,7 +13,7 @@ class Square:
             position (int, int): The position of the new square.
         """
         self.size = size
-        self.position = 
+        self.position = position
 
     @property
     def size(self):
@@ -25,7 +26,7 @@ class Square:
             raise TypeError("size must be an integer")
         elif value < 0:
             raise ValueError("size must be >= 0")
-        self.__size = 
+        self.__size = value
 
     @property
     def position(self):
