@@ -1,4 +1,4 @@
-""Defines a function that adds attributes to objects."""
+"""Defines a function that adds attributes to objects."""
 
 
 def add_attribute(obj, att, value):
